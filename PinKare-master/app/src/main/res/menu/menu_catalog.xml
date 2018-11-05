@@ -1,0 +1,15 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".webactivity">
+
+    <item
+        android:id="@+id/doctor"
+        android:title="List of Doctors"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/precautions"
+        android:title="Precautions"
+        app:showAsAction="never" />
+</menu>

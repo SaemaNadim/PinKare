@@ -1,0 +1,505 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".doctorsActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="10dp">
+
+                <ImageView
+                    android:layout_width="88dp"
+                    android:layout_height="98dp"
+                    android:src="@drawable/doctor" />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="98dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Dr.V.G. Kothandapani" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="7591453687" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Max Hospital" />
+
+
+                    <ImageView
+                        android:layout_width="150dp"
+                        android:layout_height="25dp"
+                        android:src="@drawable/star4" />
+
+                </LinearLayout>
+                <Button
+                    android:id="@+id/bb1"
+                    android:layout_width="88dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:text="send report"
+                    style="@style/buttonstyle"
+                    android:layout_marginStart="45dp"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="10dp">
+
+                <ImageView
+                    android:layout_width="88dp"
+                    android:layout_height="98dp"
+                    android:src="@drawable/doctor" />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="98dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Dr.P. Balaji Viswanath" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="7938009087" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Fortis Hospital" />
+
+
+                    <ImageView
+                        android:layout_width="150dp"
+                        android:layout_height="25dp"
+                        android:src="@drawable/star3" />
+
+                </LinearLayout>
+                <Button
+                    android:id="@+id/bb2"
+                    android:layout_width="88dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:text="send report"
+                    style="@style/buttonstyle"
+                    android:layout_marginStart="45dp"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="10dp">
+
+                <ImageView
+                    android:layout_width="88dp"
+                    android:layout_height="98dp"
+                    android:src="@drawable/doctor" />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="98dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Dr. AK Mohapatra" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="9845847567" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Sahara Hospital" />
+
+
+                    <ImageView
+                        android:layout_width="150dp"
+                        android:layout_height="25dp"
+                        android:src="@drawable/star5" />
+
+                </LinearLayout>
+                <Button
+                    android:id="@+id/bb3"
+                    android:layout_width="88dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:text="send report"
+                    style="@style/buttonstyle"
+                    android:layout_marginStart="45dp"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="10dp">
+
+                <ImageView
+                    android:layout_width="88dp"
+                    android:layout_height="98dp"
+                    android:src="@drawable/doctor" />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="98dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Dr. RK SINGH" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="7845673487" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Artemis Hospital" />
+
+
+                    <ImageView
+                        android:layout_width="150dp"
+                        android:layout_height="25dp"
+                        android:src="@drawable/half4" />
+
+                </LinearLayout>
+                <Button
+                    android:id="@+id/bb4"
+                    android:layout_width="88dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:text="send report"
+                    style="@style/buttonstyle"
+                    android:layout_marginStart="45dp"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="10dp">
+
+                <ImageView
+                    android:layout_width="88dp"
+                    android:layout_height="98dp"
+                    android:src="@drawable/doctor" />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="98dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Dr.R. Aswin Kumar" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="9875795756" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="City hospital" />
+
+
+                    <ImageView
+                        android:layout_width="150dp"
+                        android:layout_height="25dp"
+                        android:src="@drawable/star4" />
+
+                </LinearLayout>
+                <Button
+                    android:id="@+id/bb5"
+                    android:layout_width="88dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:text="send report"
+                    style="@style/buttonstyle"
+                    android:layout_marginStart="45dp"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="10dp">
+
+                <ImageView
+                    android:layout_width="88dp"
+                    android:layout_height="98dp"
+                    android:src="@drawable/doctor" />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="98dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Dr. Rakesh Agarwal" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="9871488937" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Bamra Clinics" />
+
+
+                    <ImageView
+                        android:layout_width="150dp"
+                        android:layout_height="25dp"
+                        android:src="@drawable/star3" />
+
+                </LinearLayout>
+                <Button
+                    android:id="@+id/bb6"
+                    android:layout_width="88dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:text="send report"
+                    style="@style/buttonstyle"
+                    android:layout_marginStart="45dp"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="10dp">
+
+                <ImageView
+                    android:layout_width="88dp"
+                    android:layout_height="98dp"
+                    android:src="@drawable/doctor" />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="98dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Dr. Mohita Bohra Bhardwaj" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="9871876590" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Divine and heart Hospital" />
+
+
+                    <ImageView
+                        android:layout_width="150dp"
+                        android:layout_height="25dp"
+                        android:src="@drawable/star5" />
+
+                </LinearLayout>
+                <Button
+                    android:id="@+id/bb7"
+                    android:layout_width="88dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:text="send report"
+                    style="@style/buttonstyle"
+                    android:layout_marginStart="35dp"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="10dp">
+
+                <ImageView
+                    android:layout_width="88dp"
+                    android:layout_height="98dp"
+                    android:src="@drawable/doctor" />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="98dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Dr. Ashish Mishra" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="9887320453" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Ford Hospital" />
+
+
+                    <ImageView
+                        android:layout_width="150dp"
+                        android:layout_height="25dp"
+                        android:src="@drawable/half4" />
+
+                </LinearLayout>
+                <Button
+                    android:id="@+id/bb8"
+                    android:layout_width="88dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:text="send report"
+                    style="@style/buttonstyle"
+                    android:layout_marginStart="45dp"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="10dp">
+
+                <ImageView
+                    android:layout_width="88dp"
+                    android:layout_height="98dp"
+                    android:src="@drawable/doctor" />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="98dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Dr. Charu" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="9867455797" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Narang Hospital" />
+
+
+                    <ImageView
+                        android:layout_width="150dp"
+                        android:layout_height="25dp"
+                        android:src="@drawable/star4" />
+
+                </LinearLayout>
+                <Button
+                    android:id="@+id/bb9"
+                    android:layout_width="88dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:text="send report"
+                    style="@style/buttonstyle"
+                    android:layout_marginStart="45dp"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="10dp">
+
+                <ImageView
+                    android:layout_width="88dp"
+                    android:layout_height="98dp"
+                    android:src="@drawable/doctor" />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="98dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Dr. S.L. Gola" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="6497649957" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Kalyani Hospital" />
+
+
+                    <ImageView
+                        android:layout_width="150dp"
+                        android:layout_height="25dp"
+                        android:src="@drawable/star5" />
+
+                </LinearLayout>
+                <Button
+                    android:id="@+id/bb10"
+                    android:layout_width="88dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:text="send report"
+                    style="@style/buttonstyle"
+                    android:layout_marginStart="45dp"/>
+            </LinearLayout>
+        </LinearLayout>
+
+    </ScrollView>
+
+
+</LinearLayout>
+
+
+
